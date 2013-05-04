@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<import-steps>
+
+  <import-step
+     id="oistask-setupplugins"
+     version="20070105-01"
+     handler="Products.OISTask.setuphandlers.setupVarious"
+     title="Sets up the OISTask package">
+    Sets up the OISTask package
+  </import-step>
+
+</import-steps>
