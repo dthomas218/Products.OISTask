@@ -166,7 +166,8 @@ OISTask_schema = schemata.ATContentTypeSchema.copy() + \
 ##/code-section after-schema
 
 class OISTask(base.ATCTContent):
-    __implements__ = (base.ATCTContent.__implements__, IATContentType) 
+    # Huh? //regebro
+    #__implements__ = (base.ATCTContent.__implements__, IATContentType) 
 
     meta_type = 'OISTask'
     portal_type = 'OISTask'
